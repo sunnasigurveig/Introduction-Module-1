@@ -1,0 +1,49 @@
+
+
+body {
+    margin: 0;
+    background: rgb(204, 173, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, blockquote {
+    font-size: .9em;
+    line-height: 1,6em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+.logo {
+    width: 90px;
+}
+
+.hide-mobile {
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: space-between
+
+}
+
+.menu {
+    width: 25px;
+    margin-top: 45%;
+}
+
+h1, .subhead {
+    position: relative;
+    z-index: 3;
+}
+
+.subhead {
+    font-size: 1.3em;
+}
