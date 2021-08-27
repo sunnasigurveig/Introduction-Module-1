@@ -23,6 +23,7 @@ ul {
 }
 .logo {
     width: 90px;
+    align-content: center;
 }
 
 .hide-mobile {
@@ -46,4 +47,8 @@ h1, .subhead {
 
 .subhead {
     font-size: 1.3em;
+}
+
+a:hover {
+    color: green;
 }
